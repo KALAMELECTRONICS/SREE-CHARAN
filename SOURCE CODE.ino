@@ -27,7 +27,7 @@ UniversalTelegramBot bot(BOTtoken, client);
 #define DHTPIN D5           // DHT Sensor
 #define DHTTYPE DHT11       // DHT Type
 #define BUZZER D6           // Buzzer
-#define ALERT_LED D7        // LED Alert
+
 
 DHT dht(DHTPIN, DHTTYPE);
 
